@@ -14,7 +14,7 @@ namespace Collapse {
 
 		_NODISCARD virtual char const* what() const
 		{
-			reason.c_str();
+			return reason.c_str();
 		}
 	};
 
